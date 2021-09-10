@@ -1,4 +1,5 @@
 const { useState } = require("react");
+const { WiThermometer, WiStrongWind, WiHumidity } = require("react-icons/wi");
 
 function CurrentWeather() {
   const [city, setCity] = useState("");
@@ -47,10 +48,14 @@ function CurrentWeather() {
           <p class="description">{data.weather[0].description}</p>
           <hr />
           <p class="minmax">
-            Temperature range: {data.main.temp_min}°-{data.main.temp_max}°
+            <WiThermometer /> {data.main.temp_min}°-{data.main.temp_max}°
           </p>
-          <p class="humidity">Humidity: {data.main.humidity}%</p>
-          <p class="wind">Wind: {data.wind.speed} km/hr</p>
+          <p class="humidity">
+            <WiHumidity /> {data.main.humidity}%
+          </p>
+          <p class="wind">
+            <WiStrongWind /> {data.wind.speed} km/hr
+          </p>
         </div>
       </div>
     );
