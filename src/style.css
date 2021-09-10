@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Arial;
+  padding: 10px;
+  background: #ffffff;
+  height: 100%;
+}
+/* Heading */
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  text-align: center;
+  color: rgb(2, 2, 2);
+  font-size: 80px;
+}
+
+h2 {
+  font-family: Cambria, serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* Nav bar */
+nav {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #fafafa;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(243, 243, 243);
+  background-color: rgba(0, 0, 0, 0.575);
+}
+
+/*Sign Up */
+.bg-img {
+  background-image: url("./img/forest.png");
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  font-family: Cambria, serif;
+  color: #000000;
+  font-weight: 900;
+}
+
+.container {
+  position: absolute;
+  left: 400px;
+  margin: 100px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.24);
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0 5px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 0px 0 5px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: ridge;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 15px;
+  font-family: Cambria, serif;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+/* current Weather */
+
+.search input[type="text"] {
+  width: 30%;
+  padding: 10px 10px;
+  margin: 10px 0 10px 0;
+  border: ridge;
+  border-color: rgb(70, 70, 70);
+  background: #e6e6e6;
+}
+
+.btn {
+  background-color: rgb(12, 72, 151);
+  color: rgb(255, 255, 255);
+  padding: 10px 10px;
+  margin: 20px 0 5px 0;
+  border: ridge;
+  cursor: pointer;
+  width: 10%;
+  font-size: 15px;
+  font-family: Cambria, serif;
+}
+
+/* Weather info */
+.box {
+  margin: auto;
+  padding: 70px;
+  background-image: url("./img/City-photography.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 20px;
+}
+
+.weather-container {
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  right: 150px;
+  margin: 0 auto;
+  max-width: 450px;
+  padding: 150px;
+}
+
+.weather-icon img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.info-header h2 {
+  font-family: Cambria, serif;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.info {
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.temp {
+  font-size: 3em;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: rgb(255, 255, 255);
+  font-family: "Rimouski";
+}
+
+.description {
+  font-size: 25px;
+  margin-top: 0px;
+  color: #ffffff;
+}
+
+.minmax {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.humidity {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+.wind {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+/* Footer */
+.footer {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  margin-top: 20px;
+}
