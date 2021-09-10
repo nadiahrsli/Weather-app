@@ -18,8 +18,7 @@ function Home() {
     let email = session.user.email;
     markup = (
       <div>
-        <h4>Thank you for Signing Up! :)</h4>
-        <h4>Confirmation email has been sent to {email}</h4>
+        <h4>Thank you {email} for Signing Up! :)</h4>
       </div>
     );
   }
