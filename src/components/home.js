@@ -18,13 +18,15 @@ function Home() {
     let email = session.user.email;
     markup = (
       <div>
-        <h2>You are sign in as {email} :)</h2>
+        <h4>Thank you for Signing Up! :)</h4>
+        <h4>Confirmation email has been sent to {email}</h4>
       </div>
     );
   }
 
   return (
     <div>
+      {markup}
       <SignUp />
     </div>
   );

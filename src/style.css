@@ -9,6 +9,7 @@ body {
   background: #ffffff;
   height: 100%;
 }
+
 /* Heading */
 
 .header {
@@ -27,6 +28,17 @@ h2 {
   font-family: Cambria, serif;
   font-size: 20px;
   color: #ffffff;
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h4 {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
 }
 
 /* Nav bar */
@@ -167,12 +179,6 @@ input[type="text"] {
 
 .info {
   font-family: "Lucida Console", "Courier New", monospace;
-  text-align: center;
-}
-
-h3 {
-  font-size: 20px;
-  color: rgb(255, 255, 255);
   text-align: center;
 }
 
