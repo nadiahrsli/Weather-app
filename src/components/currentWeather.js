@@ -5,7 +5,6 @@ function CurrentWeather() {
   const [city, setCity] = useState("");
   const [country, setCountry] = useState("");
   const [data, setData] = useState(null);
-  console.log(data);
 
   let dataMarkup = null;
 

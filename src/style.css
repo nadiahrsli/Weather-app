@@ -24,10 +24,16 @@ body {
   font-size: 80px;
 }
 
-h2 {
+.info-header h2 {
   font-family: Cambria, serif;
   font-size: 20px;
   color: #ffffff;
+}
+
+.container h2 {
+  font-family: Cambria, serif;
+  font-size: 25px;
+  color: #000000;
 }
 
 h3 {

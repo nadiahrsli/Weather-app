@@ -1,9 +1,5 @@
 const { Link } = require("react-router-dom");
-const {
-  BsHouseDoorFill,
-  BsInfoCircleFill,
-  BsFillBrightnessHighFill,
-} = require("react-icons/bs");
+const { BsHouseDoorFill, BsFillBrightnessHighFill } = require("react-icons/bs");
 
 function Nav({ title }) {
   return (
