@@ -14,7 +14,7 @@ function Home() {
 
   console.log(session);
 
-  let markup = <SignUp />; //By default, assume user are logged out
+  let markup = ""; //By default, assume user are logged out
   // If user logged in means there is a session
   if (session) {
     let email = session.user.email;
