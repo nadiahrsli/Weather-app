@@ -58,13 +58,13 @@ function SignUp() {
           value={userEmail}
           onChange={updateUserEmail}
         />
-        <p>{passwordStrength}</p>
         <input
           type="password"
           placeholder="Password"
           value={userPassword}
           onChange={updateUserPassword}
         />
+        <p>{passwordStrength}</p>
         <input
           type="submit"
           value="Sign Up"
